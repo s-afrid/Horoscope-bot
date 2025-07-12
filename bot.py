@@ -1,6 +1,7 @@
 # Exported environment variable and created a bot out of it using Telebot()
 import os
 import telebot
+from utilis import get_daily_horoscope
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
 # Message handler like /start or /hello to send welcome message
