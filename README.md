@@ -1,2 +1,2 @@
 # Horoscope-bot
-A telegram that tells your horoscope
+A telegram bot that tells your horoscope
