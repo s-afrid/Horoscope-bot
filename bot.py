@@ -2,7 +2,8 @@
 import os
 import telebot
 from utilis import get_daily_horoscope
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
+BOT_TOKEN = '7982603841:AAEy1-iJwBlqRxDokiCJ17chl_5OMPsVfeI'
+#BOT_TOKEN = os.environ.get('BOT_TOKEN')
 bot = telebot.TeleBot(BOT_TOKEN)
 # Message handler like /start or /hello to send welcome message
 @bot.message_handler(commands=['start','hello'])
